@@ -155,6 +155,7 @@ header .header-text button {
     margin-top: 20px;
     font-weight: 500;
     color: white;
+    cursor: pointer;
     background-color: transparent;
     transition: all .3s ease;
 }
