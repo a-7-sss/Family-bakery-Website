@@ -255,3 +255,143 @@ footer img {
     color: whitesmoke;
     text-align: center;
 }
+
+#contact .container {
+    padding: 9rem 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/* Responsive */
+
+@media (max-width:1400px) {
+    .container,
+    .container2 {
+        padding: 9rem 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    #contact .container {
+        padding: 9rem 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 912px) {
+    header .header-text {
+        padding: 20px;
+        max-width: 800px;
+    }
+    .container,
+    .container2 {
+        padding: 9rem 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .who-text {
+        text-align: center;
+        margin-top: 1rem
+    }
+    #baking .container2 {
+        padding: 6rem 8rem;
+    }
+    #contact .container {
+        text-align: center;
+        padding: 9rem 9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    #contact .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+    .contact .h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        justify-content: center;
+        /* خلي اللوجو في النص */
+        padding: 15px;
+    }
+    .navbar .nav-links {
+        display: none;
+        /* شيل الليست */
+    }
+    .navbar .logo img {
+        width: 120px;
+        /* حجم مناسب للوجو في الموبايل */
+    }
+    footer img {
+        width: 100%;
+        padding: 0 20px;
+        padding-bottom: 20px;
+        /* margin-right: 20px; */
+        border-bottom: 1px solid rgb(150, 150, 150, 0.2);
+    }
+    .container,
+    .container2 {
+        padding: 9rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .f-container {
+        /* width: 70%; */
+        margin: auto;
+        padding: 60px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    #baking .container2 {
+        padding: 6rem 2rem;
+    }
+    #contact .container {
+        text-align: center;
+        padding: 9rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    }
+    .fa-text2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        color: rgb(104, 104, 104);
+    }
+    .col .social {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    footer img {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+        margin-right: 20px;
+        border-bottom: 1px solid rgb(150, 150, 150, 0.2);
+    }
+}
